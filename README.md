@@ -1,9 +1,9 @@
 # Creator_Demo
 
 This project was created to enhance the presence of a content creator/streamer. Instead of using a simple website like Linktree <br>
-the user could instead have a page like this. It would allow for more photos and creativity for all their basic information <br>
+the user could instead have a page like this. It would allow for more photos and creativity for all their basic information. <br>
 <br>
-The home page would look like this. It allows the viewer the chance to click on each section where the information will be revealed <br>
+The home page would look like this. It allows the viewer the chance to click on each section where the information will be revealed. <br>
 <br>
 ![Screenshot (34)](https://user-images.githubusercontent.com/89669426/188734772-9078af3d-15a5-4180-9c3f-90672a0a5f88.png)
 
