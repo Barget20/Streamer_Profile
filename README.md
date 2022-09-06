@@ -1,7 +1,7 @@
 # Creator_Demo
 
-This project was created to enhance the presence of a content creator/streamer. Instead of using a simple website like Linktree <br>
-the user could instead have a page like this. It would allow for more photos and creativity for all their basic information. <br>
+This project was created to enhance the presence of a content creator/streamer. Instead of using a simple website like Linktree 
+the user could instead have a page like this. It would allow for more photos and creativity for all their basic information. 
 <br>
 The home page would look like this. It allows the viewer the chance to click on each section where the information will be revealed. <br>
 <br>
