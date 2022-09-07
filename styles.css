@@ -1,7 +1,7 @@
 
     html {
       box-sizing: border-box;
-      background: #ffc600;
+      background: #92AFD7;
       font-family: 'helvetica neue';
       font-size: 20px;
       font-weight: 200;
@@ -41,10 +41,11 @@
       align-items: center;
       display: flex;
       flex-direction: column;
-
+      max-width: 100%;
+      height: auto;
     }
 
-    .panel1 { background-image:url(./images/notepad-1130743_1920.jpg); }
+    .panel1 { background-image:url(./images/notepad-1130743_1920.jpg);}
     .panel2 { background-image:url(./images/Red\ Bird.png); }
     .panel3 { background-image:url(./images/Merch_Back4.jpg); }
     .panel4 { background-image:url(./images/soldier-3804560_1920.jpg); }
@@ -64,7 +65,9 @@
 
     /* Top text */
     .panel > *:first-child {transform: translateY(-100%); }
-    .panel.open-active > *:first-child { transform: translateY(0);}
+    .panel.open-active > *:first-child { transform: translateY(0);
+    }
+    
     /* Bottom text */
     .panel > *:last-child {transform: translateY(100%); }
     .panel.open-active > *:last-child { transform: translateY(0);}
@@ -72,33 +75,37 @@
     .panel p {
       text-transform: uppercase;
       font-family: display;
-      text-shadow: 5px 5px 10px rgb(8, 8, 140);
-      /* text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45); */
+      text-shadow: 5px 5px 10px #5A7684;
       font-size: 1em;
     }
 
     .panel a {
-      color: white;
+      color: white ;
       text-transform: uppercase;
       font-family: display;
-      text-shadow: 5px 5px 10px rgb(8, 8, 140);
+      text-shadow: 5px 5px 10px #5A7684;
       font-size: 1em;
     }
 
     .panel a:active {
-      color: red;
+      color: #92AFD7;
     }
     
     .panel p:nth-child(2) {
       font-size: 3.8em;
-      color: rgb(255, 255, 255)
+      color: white;
     }
 
     .panel.open {
       flex: 5;
       font-size: 35px;
+      text-align: center;
+      background-image: linear-gradient(#5a7684, #5A7684);
+      padding-top: 20px;
+      padding-right: 40px;
+      padding-bottom: 20px;
+      padding-left: 40px;
     }
-
 
       .cta {
         color: white;
